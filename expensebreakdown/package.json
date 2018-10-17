@@ -1,0 +1,20 @@
+{
+  "name": "expensebreakdown",
+  "version": "1.0.0",
+  "description": "A visual representation of monthly expenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/index_test.js --exit",
+    "start": "nodemon index.js"
+  },
+  "author": "erin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^3.3.0"
+  }
+}

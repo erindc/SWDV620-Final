@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Breakdown</title>
+    <link type="text/css" rel="stylesheet" href="../styles/styles.css" />
+    <meta name="robots" content="noindex" />
+    <script src="/scripts/scripts.js" type="text/javascript"></script>
+</head>
+<body>
+    <div>
+        <h1 class="nav">Expense Breakdown</h1>
+        <br /><br />
+        <div class="expenses" id="form-block">
+            <p class="lead">Insert your monthly expenses below and select their categories</p>
+            <br />
+            <div>
+                <form class="expense-form" id="exp-form" onsubmit="return false">
+                    <input class="form-s" type="number" placeholder="Expense" id="exp1" />
+                    <select class="form-s clickable" id="cat1">
+                        <option>Rent</option>
+                        <option>Phone</option>
+                        <option>Utilities</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Car Insurance</option>
+                        <option>Fun Money</option>
+                        <option>Loans</option>
+                        <option>Car Payment</option>
+                        <option>Miscellaneous</option>
+                        <option>Other</option>
+                    </select>
+                    <input class="form-s mt-15" type="number" placeholder="Expense" id="exp2" />
+                    <select class="form-s clickable" id="cat2">
+                        <option>Rent</option>
+                        <option>Phone</option>
+                        <option>Utilities</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Car Insurance</option>
+                        <option>Fun Money</option>
+                        <option>Loans</option>
+                        <option>Car Payment</option>
+                        <option>Miscellaneous</option>
+                        <option>Other</option>
+                    </select>
+                    <input class="form-s mt-15" type="number" placeholder="Expense" id="exp3" />
+                    <select class="form-s clickable" id="cat3">
+                        <option>Rent</option>
+                        <option>Phone</option>
+                        <option>Utilities</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Car Insurance</option>
+                        <option>Fun Money</option>
+                        <option>Loans</option>
+                        <option>Car Payment</option>
+                        <option>Miscellaneous</option>
+                        <option>Other</option>
+                    </select>
+                    <input class="form-s mt-15" type="number" placeholder="Expense" id="exp4" />
+                    <select class="form-s clickable" id="cat4">
+                        <option>Rent</option>
+                        <option>Phone</option>
+                        <option>Utilities</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Car Insurance</option>
+                        <option>Fun Money</option>
+                        <option>Loans</option>
+                        <option>Car Payment</option>
+                        <option>Miscellaneous</option>
+                        <option>Other</option>
+                    </select>
+                    <input class="form-s mt-15" type="number" placeholder="Expense" id="exp5" />
+                    <select class="form-s clickable" id="cat5">
+                        <option>Rent</option>
+                        <option>Phone</option>
+                        <option>Utilities</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Car Insurance</option>
+                        <option>Fun Money</option>
+                        <option>Loans</option>
+                        <option>Car Payment</option>
+                        <option>Miscellaneous</option>
+                        <option>Other</option>
+                    </select>
+                    <br /><br />
+                    <button type="submit" class="clickable btn" onclick="submitExp({exp1: document.getElementById('exp1').value, cat1: document.getElementById('cat1').value, exp2: document.getElementById('exp2').value, cat2: document.getElementById('cat2').value, exp3: document.getElementById('exp3').value, cat3: document.getElementById('cat3').value, exp4: document.getElementById('exp4').value, cat4: document.getElementById('cat4').value, exp5: document.getElementById('exp5').value, cat5: document.getElementById('cat5').value})">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
